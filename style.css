@@ -1,0 +1,39 @@
+/*To remove the bullets,margins and padding from the list*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* Make the navigation bar stay at the top of the page, even when the user scrolls the page:*/
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* responsive top bar */
+    
+      
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+
+  /* Add an "active" class to the current link to let the user know which page he/she is on: */
+  .active {
+    background-color: #04AA6D;
+  }
+
+  
